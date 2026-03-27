@@ -1,4 +1,4 @@
-import { navLinks } from '../data/portfolioData';
+import { navLinks } from '../Data/portfolioData';
 
 function Sidebar({ sidebarOpen, setSidebarOpen }) {
   return (

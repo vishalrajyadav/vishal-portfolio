@@ -1,4 +1,4 @@
-import { projects } from '../data/portfolioData';
+import { projects } from '../Data/portfolioData';
 
 function Projects() {
   return (

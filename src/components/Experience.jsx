@@ -1,4 +1,4 @@
-import { experienceData } from '../data/portfolioData'
+import { experienceData } from '../Data/portfolioData'
 
 function Experience() {
   return (
