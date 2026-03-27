@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer-area">
       <div className="container text-center">
         <p className="mb-0">
-          © 2026 Your Name | Built with React JS, JavaScript, Vite and Bootstrap
+          © 2026 Vishal Raj | Built with React JS, JavaScript, Vite and Bootstrap
         </p>
       </div>
     </footer>
