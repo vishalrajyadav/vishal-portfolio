@@ -416,3 +416,10 @@ a {
 .experience-card p {
   color: rgba(255, 255, 255, 0.75);
 }
+
+.hero-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   /* 👈 IMPORTANT */
+  border-radius: 50%;
+}

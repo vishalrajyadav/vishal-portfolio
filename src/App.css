@@ -182,3 +182,40 @@
     border-right-color: var(--border);
   }
 }
+
+
+
+
+/* Avatar Circle */
+.hero-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: linear-gradient(45deg, #00dbde, #fc00ff);
+  animation: rotateBorder 6s linear infinite;
+}
+
+.hero-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #111;
+}
+
+/* Border Animation */
+@keyframes rotateBorder {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Optional glow */
+.hero-avatar img {
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
+}
